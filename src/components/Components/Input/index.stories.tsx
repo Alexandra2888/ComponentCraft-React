@@ -17,6 +17,7 @@ export const Text: Story = {
   args: {
     type: "text",
     placeholder: "Insert text here",
+    id: "text",
   },
 };
 
@@ -24,6 +25,7 @@ export const Password: Story = {
   args: {
     type: "password",
     placeholder: "Password",
+    id: "password",
   },
 };
 
@@ -31,6 +33,7 @@ export const Number: Story = {
   args: {
     type: "number",
     placeholder: "Number",
+    id: "number",
   },
 };
 
@@ -38,19 +41,14 @@ export const Date: Story = {
   args: {
     type: "date",
     placeholder: "Date",
+    id: "date",
   },
 };
 
 export const Color: Story = {
   args: {
     type: "color",
-  },
-};
-
-export const Checkbox: Story = {
-  args: {
-    type: "checkbox",
-    placeholder: "Checkbox",
+    id: "color",
   },
 };
 
@@ -58,6 +56,7 @@ export const File: Story = {
   args: {
     type: "file",
     placeholder: "File",
+    id: "file",
   },
 };
 
@@ -66,13 +65,7 @@ export const Image: Story = {
     type: "image",
     src: "https://via.placeholder.com/150",
     alt: "Submit",
-  },
-};
-
-export const Radio: Story = {
-  args: {
-    type: "radio",
-    placeholder: "Radio",
+    id: "image",
   },
 };
 
@@ -80,6 +73,7 @@ export const Range: Story = {
   args: {
     type: "range",
     placeholder: "Range",
+    id: "range",
   },
 };
 
@@ -87,5 +81,6 @@ export const Search: Story = {
   args: {
     type: "search",
     placeholder: "Search",
+    id: "search",
   },
 };

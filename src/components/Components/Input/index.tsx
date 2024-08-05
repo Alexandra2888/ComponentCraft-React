@@ -20,6 +20,7 @@ const inputStyles = cva([
 type InputProps = ComponentProps<"input"> &
   VariantProps<typeof inputStyles> & {
     src?: string;
+    id: string;
   };
 
 export const Input = forwardRef<HTMLInputElement, InputProps>(
