@@ -13,27 +13,17 @@ const meta: Meta<typeof Input> = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Text: Story = {
+export const Checkbox: Story = {
   args: {
-    type: "text",
-    placeholder: "Insert text here",
-    id: "text",
+    type: "checkbox",
+    placeholder: "Checkbox",
   },
 };
 
-export const Password: Story = {
+export const Color: Story = {
   args: {
-    type: "password",
-    placeholder: "Password",
-    id: "password",
-  },
-};
-
-export const Number: Story = {
-  args: {
-    type: "number",
-    placeholder: "Number",
-    id: "number",
+    type: "color",
+    id: "color",
   },
 };
 
@@ -42,13 +32,6 @@ export const Date: Story = {
     type: "date",
     placeholder: "Date",
     id: "date",
-  },
-};
-
-export const Color: Story = {
-  args: {
-    type: "color",
-    id: "color",
   },
 };
 
@@ -69,6 +52,29 @@ export const Image: Story = {
   },
 };
 
+export const Number: Story = {
+  args: {
+    type: "number",
+    placeholder: "Number",
+    id: "number",
+  },
+};
+
+export const Password: Story = {
+  args: {
+    type: "password",
+    placeholder: "Password",
+    id: "password",
+  },
+};
+
+export const Radio: Story = {
+  args: {
+    type: "radio",
+    placeholder: "Radio",
+  },
+};
+
 export const Range: Story = {
   args: {
     type: "range",
@@ -82,5 +88,13 @@ export const Search: Story = {
     type: "search",
     placeholder: "Search",
     id: "search",
+  },
+};
+
+export const Text: Story = {
+  args: {
+    type: "text",
+    placeholder: "Insert text here",
+    id: "text",
   },
 };
