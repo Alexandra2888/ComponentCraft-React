@@ -1,6 +1,6 @@
 import { cn } from "@/utils";
-import { cva } from "class-variance-authority";
-import { ComponentProps, forwardRef, VariantProps } from "react";
+import { cva, VariantProps } from "class-variance-authority";
+import { ComponentProps, forwardRef } from "react";
 
 const buttonStyles = cva(
   [
@@ -154,16 +154,6 @@ const buttonStyles = cva(
         variant: "ghost",
         colorscheme: "info",
         className: "text-cyan-600 bg-transparent hover:bg-cyan-100",
-      },
-      {
-        variant: "ghost",
-        colorscheme: "light",
-        className: "text-black bg-transparent hover:bg-gray-100",
-      },
-      {
-        variant: "ghost",
-        colorscheme: "dark",
-        className: "text-black bg-transparent hover:bg-gray-200",
       },
     ],
     defaultVariants: {
