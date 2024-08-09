@@ -1,0 +1,1 @@
+import{j as t,c as r}from"./index-GwXrCpiV.js";import{r as a}from"./index-DJO9vBfz.js";const e=a.forwardRef(({...s},o)=>t.jsx("div",{ref:o,...s}));e.__docgenInfo={description:"",methods:[],displayName:"Box"};const c=({className:s,...o})=>t.jsx(e,{className:r("flex flex-col items-start",s),...o});c.__docgenInfo={description:"",methods:[],displayName:"Stack"};export{e as B,c as S};

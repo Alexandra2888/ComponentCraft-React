@@ -1,0 +1,28 @@
+import { Meta, StoryObj } from '@storybook/react';
+import { Button } from '.';
+
+declare const meta: Meta<typeof Button>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export declare const SolidPrimary: Story;
+export declare const SolidSecondary: Story;
+export declare const SolidSuccess: Story;
+export declare const SolidDanger: Story;
+export declare const SolidWarning: Story;
+export declare const SolidInfo: Story;
+export declare const SolidLight: Story;
+export declare const SolidDark: Story;
+export declare const OutlinePrimary: Story;
+export declare const OutlineSecondary: Story;
+export declare const OutlineSuccess: Story;
+export declare const OutlineDanger: Story;
+export declare const OutlineWarning: Story;
+export declare const OutlineInfo: Story;
+export declare const OutlineLight: Story;
+export declare const OutlineDark: Story;
+export declare const GhostPrimary: Story;
+export declare const GhostSecondary: Story;
+export declare const GhostSuccess: Story;
+export declare const GhostDanger: Story;
+export declare const GhostWarning: Story;
+export declare const GhostInfo: Story;

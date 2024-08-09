@@ -1,8 +1,19 @@
 {
-  "name": "componentcraft-react",
+  "name": "component-craft",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/component-craft-umd.cjs",
+  "module": "dist/component-craft.js",
+  "exports": {
+    ".": {
+      "import": "./dist/component-craft.js",
+      "require": "./dist/component-craft-umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -20,7 +31,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
-    "tailwind-merge": "^2.4.0"
+    "tailwind-merge": "^2.4.0",
+    "vite-plugin-dts": "^4.0.0-beta.2"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
